@@ -7,8 +7,7 @@
     "start": "webpack-dev-server --inline --progress --port 20000",
     "build": "ng build",
     "test": "karma start",
-    "lint": "ng lint",
-    "e2e": "protractor protractor.conf.js"
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
