@@ -6,9 +6,8 @@
     "ng": "ng",
     "start": "webpack-dev-server --inline --progress --port 20000",
     "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "test": "karma start",
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
@@ -45,6 +44,7 @@
     "karma-chrome-launcher": "~2.1.1",
     "karma-cli": "~1.0.1",
     "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-istanbul-threshold": "^1.2.2",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
