@@ -2,6 +2,7 @@ var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var StyleLintPlugin = require('stylelint-webpack-plugin');
+var ProvidePlugin = require('webpack/lib/ProvidePlugin');
 var helpers = require('./helpers');
 
 module.exports = {
@@ -73,6 +74,11 @@ module.exports = {
     new StyleLintPlugin({
       configFile: ".stylelintrc.json",
       syntax: 'scss'
+    }),
+
+    new ProvidePlugin({
+      "window.jQuery": "jquery",
+      Hammer: "hammerjs/hammer"
     })
   ]
 };

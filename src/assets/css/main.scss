@@ -1,4 +1,7 @@
-body {
-  background: #2a53a7;
-  color: #fff;
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+main {
+  margin: 40px auto;
+  text-align: center;
+  width: 500px;
 }
