@@ -1,0 +1,32 @@
+{
+  "workers": [
+    {
+      "id": "worker_1",
+      "name": "Alexandros Raphael"
+    },
+    {
+      "id": "worker_2",
+      "name": "Isamu Mümin"
+    },
+    {
+      "id": "worker_3",
+      "name": "Cadwalader Calvagh"
+    },
+    {
+      "id": "worker_4",
+      "name": "Darien Bogdan"
+    },
+    {
+      "id": "worker_5",
+      "name": "Tormod Mikkel"
+    },
+    {
+      "id": "worker_6",
+      "name": "Kgosi Arlotto"
+    },
+    {
+      "id": "worker_7",
+      "name": "Petru Joseph"
+    }
+  ]
+}
