@@ -1,0 +1,32 @@
+{
+  'dishes': [
+    {
+      'id': 'dishes_1',
+      'name': 'Pasta'
+    },
+    {
+      'id': 'dishes_2',
+      'name': 'Noodle'
+    },
+    {
+      'id': 'dishes_3',
+      'name': 'Omlette'
+    },
+    {
+      'id': 'dishes_4',
+      'name': 'Meatball'
+    },
+    {
+      'id': 'dishes_5',
+      'name': 'Pie'
+    },
+    {
+      'id': 'dishes_6',
+      'name': 'Pizza'
+    },
+    {
+      'id': 'dishes_7',
+      'name': 'Risotto'
+    }
+  ]
+}

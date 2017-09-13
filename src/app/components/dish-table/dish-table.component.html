@@ -1,0 +1,14 @@
+<div class="dish-table">
+  <div class="dish-table__header">
+    <div class="dish-table__header-item">Dish</div>
+    <div class="dish-table__header-item">Quantity</div>
+  </div>
+  <div class="dish-table__row" *ngFor="let dishOrder of dishOrders">
+    <div class="dish-table__row-item">
+      <md-select [(ngModel)]="dishOrder.dishId">
+        <md-option *ngFor="let dish of dishes" [value]="dish.id">{{ dish.name }}</md-option>
+      </md-select>
+    </div>
+    <div class="dish-table__row-item"><input [value]="dishOrder.quantity" type="number"></div>
+  </div>
+</div>

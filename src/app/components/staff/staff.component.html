@@ -1,0 +1,9 @@
+<h1>Staff</h1>
+<md-accordion>
+  <md-expansion-panel *ngFor="let worker of Workers">
+    <md-expansion-panel-header>
+      {{worker.name}}
+    </md-expansion-panel-header>
+    <dish-table></dish-table>
+  </md-expansion-panel>
+</md-accordion>
